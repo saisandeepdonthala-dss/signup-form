@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+#myForm {
+  display:flex;
+  flex-direction:column;
+  width: 500px;
+  margin: 1% 0% 0% 30%;
+  border: 0.6px solid grey;
+  padding: 10px;
+  box-shadow: 2px -3px 20px grey;
+  border-radius: 5px;
+}
+#myForm h1{
+
+    text-align: center;
+    text-decoration: underline 6px solid red;
+}
+#myForm label{
+    margin: 10px 0px 15px 0px;
+}
+#myForm button{
+    margin: 20px 0px 15px 0px;
+    border:none;
+    background-color: black;
+    color:white;
+    padding: 8px;
+}
+#myForm input{
+    padding: 7px;
+    border: 0.7px solid gray;
+    border-radius: 7px;
+}
+#myForm button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+#myForm input{
+    padding: 7px;
+    border: 0.7px solid grey;
+    border-radius: 7px;
+
+}
